@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Solcraft</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Encriptador de texto Solcraft</h1>
+ 
+        <textarea id="inputText" 
+        placeholder="Ingresa el texto aquí..." 
+        rows="4" cols="50"></textarea><br><br>
+        
+        <div>
+            <button onclick="encryptText()">Encriptar</button>
+            <button onclick="descryptText()">Desencriptar</button>
+            <button onclick="clearText()">Limpiar</button>
+            <br><br>
+
+        </div>
+
+        <textarea id="outputText" 
+        placeholder="Resultado..." 
+        rows="4" cols="50" readonly></textarea>
+        <br><br>
+        <button onclick="copyText()">Copiar</button> 
+        
+        <script src="script.js"></script>
+    
+</body>
+<footer>
+    <time datetime="2018-07-07">July 7</time>
+</footer>
+</html>
