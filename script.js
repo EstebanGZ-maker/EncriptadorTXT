@@ -9,6 +9,8 @@ function encryptText() {
     .replace(/o/g, "ober")
     .replace(/u/g, "ufat");
 
+    outputText.style.backgroundImage = "none";
+
     document.getElementById("outputText").value = encryptedText;
     
 }

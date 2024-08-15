@@ -4,33 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador Solcraft</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 
 </head>
 
 <body>
-
-    <h1>Encriptador de texto Solcraft</h1>
  
-        <textarea id="inputText" 
-        placeholder="Ingresa el texto aquí..." 
-        rows="4" cols="50"></textarea><br><br>
-        
-        <div>
-            <button onclick="encryptText()">Encriptar</button>
-            <button onclick="descryptText()">Desencriptar</button>
-            <button onclick="clearText()">Limpiar</button>
-            <br><br>
+    <header class="barra" >
+        <img class="logo" src="/imgs/logo.png" alt="logo">
+        <h1 class="titulo" >Encriptador de texto Solcraft</h1>
+    </header>
+    
+    <main class="main" >
 
-        </div>
+        <section>
+    
+            <textarea class="textarea-input" id="inputText" 
+            placeholder="Ingresa el texto aquí..." 
+            rows="10" cols="30"></textarea><br><br>
+            
+            <h6 class="information" >Solo letras minusculas y sin acentos</h6>
 
-        <textarea id="outputText" 
-        placeholder="Resultado..." 
-        rows="4" cols="50" readonly></textarea>
-        <br><br>
-        <button onclick="copyText()">Copiar</button> 
+            <div class="btn-ubi" >
+                <button class="btn-style" onclick="encryptText()">Encriptar</button>
+                <button class="btn-style" onclick="descryptText()">Desencriptar</button>
+                <button class="btn-style" onclick="clearText()">Limpiar</button>
+                <br><br>
+                
+            </div>
+                
+        </section>
+    
+        <section>
+    
+            <textarea class="textarea-ouput" id="outputText" 
+                placeholder="Resultado..." 
+                rows="10" cols="30" readonly></textarea>
+                
+                <div  >
+                    <button class="btn-copy" onclick="copyText()">Copiar</button>
+                </div>
+    
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+         
         
-        <script src="script.js"></script>
+
+   
     
 </body>
 <footer>

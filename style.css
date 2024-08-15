@@ -1,5 +1,158 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-    background-color: rgb(243, 240, 240);
+*{
 
+    background-color: #ebecf3;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+
+}
+
+.main{
+
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+
+}
+
+.logo{
+
+    margin: 40px 0px 0px 10px;
+    width: 5%;
+    height: 5%;
+
+}
+
+.barra{
+
+    display: flex;
+    margin-top: 0px;
+
+}
+
+.titulo{
+
+    display: flex;
+    justify-content:space-between;
+    margin-top: 5%;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.textarea-input{
+
+    justify-content: space-between;
+    color: black;
+    margin-top: 20PX;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.textarea-input:hover {
+
+    outline: none;
+}
+
+.textarea-input:focus{
+
+    outline: none;
+
+}
+
+.textarea-ouput{
+
+    background-image: url("/imgs/no-data.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: black;
+    margin-left: 100px;
+    margin-top: 20PX;
+    padding-left: 20px;
+    position: fixed;
+
+
+}
+
+.textarea-ouput:hover {
+
+    outline: none;
+}
+
+.textarea-ouput:focus{
+
+    outline: none;
+
+}
+
+.information{
+
+    font-size: 18px;
+    color: #495057;
+    margin-left: 5%;
+
+}
+
+.btn-ubi{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-style{
+
+    background-color: #0a3871;
+    border:rgb(12, 12, 12);
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 67px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 0px;
+    font-weight: 500;
+
+}
+
+.btn-style:hover {
+
+    background-color: white;
+    color: black;
+    border: 2px solid #0a3871;
+}
+
+.btn-copy{
+
+    background-color: #0a3871;
+    border:rgb(12, 12, 12);
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 360px;
+    margin-left: 100px;
+    margin-top: 400px;
+    position: absolute;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: 500;
+
+}
+
+.btn-copy:hover {
+
+    background-color: white;
+    color: black;
+    border: 2px solid #0a3871;
 }
