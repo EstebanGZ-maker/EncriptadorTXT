@@ -21,9 +21,13 @@
     
             <textarea class="textarea-input" id="inputText" 
             placeholder="Ingresa el texto aquí..." 
-            rows="10" cols="30"></textarea><br><br>
-            
-            <h6 class="information" >Solo letras minusculas y sin acentos</h6>
+            rows="10" cols="30"></textarea><br><br><br><br><br>
+
+        <div class="info-ubi" >
+            <img src="/imgs/symbole.png" alt="simbolo" width="20px">
+            <span class="information" >Solo letras minusculas y sin acentos</span>
+
+        </div>
 
             <div class="btn-ubi" >
                 <button class="btn-style" onclick="encryptText()">Encriptar</button>
@@ -39,7 +43,10 @@
 
             <div class="output-class"  >
 
-                <button class="btn-copy" onclick="copyText()">Copiar</button>
+                <button class="btn-copy" id="copyTexto" onclick="copyText()">Copiar</button>
+               
+                    <b class="no-data"  id="noData" > Ningún mensaje fue encontrado </b> 
+                    <b  class="no-text" id="noDat" >Ingresa el texto que desees encriptar o desencriptar.</b>
 
                 <textarea class="textarea-ouput" id="outputText" 
                     placeholder="Resultado..." 
@@ -48,11 +55,6 @@
                 </textarea>
 
             </div>
-
-
-            
-    
-
                 
         </section>
 
@@ -60,13 +62,9 @@
 
 
     <script src="script.js"></script>
-         
-        
-
-   
-    
+            
 </body>
-<footer>
-    <time datetime="2018-07-07">July 7</time>
-</footer>
 </html>
+<footer class="footer" >
+    <p >Desarrollado por Solcraft / Developer: Esteban Garcia Zuluaga</p>
+</footer>

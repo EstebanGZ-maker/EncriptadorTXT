@@ -10,8 +10,17 @@ function encryptText() {
     .replace(/u/g, "ufat");
 
     outputText.style.backgroundImage = "none";
+    noData.style.display = "none";
+    noDat.style.display = "none";
+    copyTexto.style.display = 'block';
 
     document.getElementById("outputText").value = encryptedText;
+    document.getElementById("noData").value = noData;
+    document.getElementById("no-data").value = noDat;
+    document.getElementById("copyTexto").value = copyTexto;
+
+
+    outputText.value = encryptedText;
     
 }
 
