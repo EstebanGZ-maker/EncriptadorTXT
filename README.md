@@ -1,4 +1,5 @@
 Encriptador de Texto
+
 Este proyecto es un encriptador de texto simple desarrollado en JavaScript, HTML y CSS. La aplicación permite encriptar y desencriptar mensajes utilizando un conjunto de reglas específicas, proporcionando una forma divertida y segura de codificar y decodificar mensajes.
 
 Descripción
